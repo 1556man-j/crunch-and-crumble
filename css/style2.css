@@ -99,18 +99,18 @@ CSS INDEX
     --font-custom-stack-other: 'Outfit', sans-serif;
 
     --footer-text-color: #808080;
-    --footer-head-color: #7f462b;
+    --footer-head-color: var(--font-color-primary);
 
-    --font-color-primary: #7f462b;
+    --font-color-primary: #c19d60;
     --font-color-secondary: #333333;
-    --theme-border-color: rgba(127, 70, 43, 0.2);
+    --theme-border-color: rgba(193, 157, 96, 0.2);
 
     --sti-color: #6f6f6f;
     --sti-font-size: 15px;
     --sti-bgcolor: #FFFFFF;
     --sti-text: none;
     --sti-font-weight: 400;
-    --sti-border: 1px solid rgba(127, 70, 43, 0.3);
+    --sti-border: 1px solid rgba(194, 159, 94, 0.3);
     --sti-border-radius: 6px;
 
     --box-body-bgcolor: #FFFFFF;
@@ -308,16 +308,16 @@ button[disabled] {
   color: #ffffff;
   font-size: 16px;
   padding: 13px 40px;
-  background-color: #7f462b;
+  background-color: var(--font-color-primary);
   text-transform: uppercase;
   font-weight: 400;
-  border: 2px solid #7f462b;
+  border: 2px solid var(--font-color-primary);
   border-radius: 6px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.5px;
 }
 .btn-style:hover {
-  color: #7f462b;
+  color: var(--font-color-primary);
   background-color: #ffffff;
   border: 2px solid #FFFFFF;
 }
@@ -330,21 +330,21 @@ button[disabled] {
 
 /* btn2 */
 .btn-style2 {
-  color: #7f462b;
+  color: var(--font-color-primary);
   font-size: 16px;
   padding: 13px 30px;
   background-color: rgba(0,0,0,0);
   text-transform: uppercase;
   font-weight: 400;
-  border: 2px solid #7f462b;
+  border: 2px solid var(--font-color-primary);
   border-radius: 6px;
   letter-spacing: 0.5px;
   line-height: 1;
 }
 .btn-style2:hover {
   color: #ffffff;
-  background-color: #7f462b;
-  border: 2px solid #7f462b;
+  background-color: var(--font-color-primary);
+  border: 2px solid var(--font-color-primary);
 }
 
 /* btn3 */
@@ -363,8 +363,8 @@ button[disabled] {
 }
 .btn-style3:hover {
   color: #ffffff;
-  background-color: #7f462b;
-  border: 2px solid #7f462b;
+  background-color: var(--font-color-primary);
+  border: 2px solid var(--font-color-primary);
 }
 
 /*====================================
@@ -690,7 +690,7 @@ iframe {
     display: flex;
     align-items: center;
     position: relative;
-    background-color: #7f462b;
+    background-color: var(--font-color-primary);
 }
 
 /* offer-text css */
@@ -2531,7 +2531,7 @@ a.search-popup.search-popup-lg {
     animation-name: backInDown;
 }
 .slider-content .home-slider .slide-image .slider-info-content .slider-text-info span.sub-title {
-    color: #7f462b;
+    color: var(--font-color-primary);
     font-size: 22px;
     font-weight: 400;
 }
@@ -2809,7 +2809,7 @@ a.search-popup.search-popup-lg {
     margin: 0 auto;
 }
 .custom-text-wrapper .custom-text-content span.sub-title {
-    color: #7f462b;
+    color: var(--font-color-primary);
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -5642,4 +5642,3 @@ ul.breadcrumb-list li span:last-child::after {
   .result-item:hover {
     background-color: #f9f9f9;
   }
-  

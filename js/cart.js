@@ -50,7 +50,7 @@ function addToCart(product) {
 // Function to update the cart display in multiple places
 function updateCartDisplay() {
   const cartCount = document.querySelector(".cart-counters");
-  const cartCounter = document.getElementById("cart-counters");
+  const cartCounter = document.getElementById("bottom-counters");
   const mobileCartCount = document.getElementById("mobile-cart-counter");
   const bigCounter = document.querySelector(".big-counter");
   const subtotalPriceElement = document.querySelector(".subtotal-price");
